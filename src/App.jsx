@@ -10,6 +10,7 @@ import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import { BrowserRouter as Router } from "react-router-dom";
 import Projects from "./components/Projects/Projects";
+import { useState } from "react";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -34,6 +35,8 @@ const Wrapper = styled.div`
 `;
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <>
       <ThemeProvider theme={darkTheme}>
@@ -47,7 +50,11 @@ function App() {
             <Experience/>
             {/* <Education/> */}
           </Wrapper>
-          <Projects/>
+          <Projects  openModal={openModal} setOpenModal={setOpenModal} />
+          <Wrapper>
+            <Education />
+            
+          </Wrapper>
         </Body>
         </Router>
       </ThemeProvider>

@@ -13,8 +13,10 @@ import {
 import ProjectCard from "../Card/ProjectCard";
 import { projects } from "../../data/constant";
 
-function Projects() {
+function Projects({openModal , setOpenModal}) {
   const [toggle, setToggle] = useState("all");
+
+
   return (
     <Container id="projects">
     <Wrapper>
@@ -48,7 +50,15 @@ function Projects() {
         }
       </ToggleButtonGroup>
       <CardContainer>
-       
+      {toggle === 'all' && projects
+            .map((project) => (
+              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+            ))}
+          {projects
+            .filter((item) => item.category == toggle)
+            .map((project) => (
+              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+            ))}
       </CardContainer>
     </Wrapper>
   </Container>
