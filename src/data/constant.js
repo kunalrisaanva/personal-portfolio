@@ -7,7 +7,7 @@ export const Bio = {
     ],
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-    github: "https://github.com/rishavchanda",
+    github: "https://github.com/kunalrisaanva",
     resume:
       "https://docs.google.com/document/d/12pj4N6vTk7x0Ky5YlpU4uARU-cnfNnrWNLBYyi7xFYo/edit",
     linkedin: "https://www.linkedin.com/in/kunal-risaanva-40739225b/",
