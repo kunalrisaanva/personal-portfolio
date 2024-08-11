@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constant';
-
+ 
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
@@ -83,7 +83,7 @@ const Copyright = styled.p`
   color: ${({ theme }) => theme.soft2};
   text-align: center;
 `;
-
+ 
 function Footer() {
   return (
     <FooterContainer>

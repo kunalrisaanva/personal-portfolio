@@ -10,7 +10,7 @@ import ExperienceCard from '../Card/ExperienceCard';
 import { experiences } from '../../data/constant';
 
 
-
+ 
 const Container = styled.div`
     display: flex;
     flex-direction: column;

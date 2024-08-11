@@ -13,9 +13,9 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <a href='/' style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+          </a> 
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
@@ -36,7 +36,7 @@ const Navbar = () => {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
             <MobileLink href="#about" onClick={() => {
-              setIsOpen(!isOpen)
+              setIsOpen(!isOpen) 
             }}>About</MobileLink>
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
