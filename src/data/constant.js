@@ -168,7 +168,7 @@ export const Bio = {
     {
       id: 0,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-      role: "DevOps & Fullstack Engineering Intern",
+      role: "Backend Engineering Freelancing work",
       company: "Flipr Inovations Pvt. Ltd.",
       date: "Aug 2023 - July 2023",
       desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
@@ -280,19 +280,19 @@ export const Bio = {
     {
       id: 1,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Methodist School, Dankuni",
+      school: "Adrash Sr. Sec. School, Bound",
       date: "Apr 2019 - Apr 2025",
-      grade: "88.2%",
-      desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+      grade: "74.2%",
+      desc: "I completed my class 12 high school education at Adrash School, Bound, where I studied Arts with Computer Science.",
       degree: "ISC(XII), Science with Computer",
     },
     {
       id: 2,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Methodist School, Dankuni",
+      school: "S.D.M High School, Kharak kalan",
       date: "Apr 2017 - Apr 2019",
-      grade: "92.3%",
-      desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
+      grade: "64.3%",
+      desc: "I completed my class 10 education at S.D.M School, Kharak, where I studied Science with Computer Application.",
       degree: "ICSC(X), Science with Computer",
     },
   ];
@@ -491,9 +491,9 @@ export const Bio = {
   ];
   
   export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
+    { year: 2021, text: "Started my journey" },
+    { year: 2023, text: "Worked as a freelance developer" },
+    { year: 2023, text: "Founded JavaScript Mastery" },
+    { year: 2024, text: "Shared my projects with the world" },
+    { year: 2024, text: "Started my own platform" },
   ];
