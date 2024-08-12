@@ -9,7 +9,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/kunalrisaanva",
     resume:
-      "https://docs.google.com/document/d/12pj4N6vTk7x0Ky5YlpU4uARU-cnfNnrWNLBYyi7xFYo/edit",
+      "https://docs.google.com/document/d/1At-ikKZSCU6i60eczmj7HNs1zw54SVOdHFTiZu6TqdA/edit?usp=sharing",
     linkedin: "https://www.linkedin.com/in/kunal-risaanva-40739225b/",
     twitter: "https://x.com/kunal_risaanva",
     insta: "https://www.instagram.com/kunal_risaanva/",
@@ -270,30 +270,30 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
+      img: "https://firebasestorage.googleapis.com/v0/b/fir-ef23f.appspot.com/o/download%20(1).jpeg?alt=media&token=74b31a02-d3a8-4e66-aacb-21961148cb77",
+      school: "M.N.S Govt. Collage, Bhiwani",
       date: "Oct 2021 - Sep 2025",
       grade: "8.71 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+      desc: "I am recentenly completed a Bachelor's degree , Bhiwani. I have completed 6 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a doing freelancing work , where I am learning and working on exciting projects with a team of talented developers.",
+      degree: "Bachelor of Arts - B.A , Computer Science and Engineering",
     },
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      img: "https://firebasestorage.googleapis.com/v0/b/fir-ef23f.appspot.com/o/download.jpeg?alt=media&token=c09ccd93-01b8-4001-ad0d-60f49f325e95",
       school: "Adrash Sr. Sec. School, Bound",
       date: "Apr 2019 - Apr 2025",
       grade: "74.2%",
-      desc: "I completed my class 12 high school education at Adrash School, Bound, where I studied Arts with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
+      desc: "I completed my class 12 high school education at Adrash School, Bound, where I studied Arts with Math .",
+      degree: "HBSC(XII), Science with Computer",
     },
     {
       id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3drnlTUk8FpFP3xT9BVbaoJd-sX9rhA-A_w&s",
       school: "S.D.M High School, Kharak kalan",
       date: "Apr 2017 - Apr 2019",
       grade: "64.3%",
       desc: "I completed my class 10 education at S.D.M School, Kharak, where I studied Science with Computer Application.",
-      degree: "ICSC(X), Science with Computer",
+      degree: "HBSC(X), Science with Computer",
     },
   ];
   
