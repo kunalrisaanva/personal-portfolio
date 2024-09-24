@@ -170,39 +170,42 @@ export const Bio = {
       role: "Backend Engineering At Blogee",
       company: "Pvt. Ltd.",
       date: "Aug 2024 - october 2024",
-      desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+      desc: "Working on Blogee Platforms,Developed and maintained APIs using Node JS , improving backend functionality and performances.",
       skills: [
-        "Docker",
+        // "Docker",
         // "Express JS",
         "AWS",
         "EC2",
         "JavaScript",
         "Node Js",
+        "Rest Api",
+        "FireBase",
+         "aggregation-Piplines"
         
       ],
-      doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+      // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
 
 
-    {
-      id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-      role: "Backend Engineering Freelancing work",
-      company: "Pvt. Ltd.",
-      date: "Aug 2023 - July 2023",
-      desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-      skills: [
-        "Express Js",
-        // "Rest Api",
-        "AWS",
-        "EC2",
-        "JavaScript",
-        "Node Js",
-        "aggregation-Piplines"
+    // {
+    //   id: 0,
+    //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    //   role: "Backend Engineering Freelancing work",
+    //   company: "Pvt. Ltd.",
+    //   date: "Aug 2023 - July 2023",
+    //   desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    //   skills: [
+    //     "Express Js",
+    //     // "Rest Api",
+    //     "AWS",
+    //     "EC2",
+    //     "JavaScript",
+    //     "Node Js",
+    //     "aggregation-Piplines"
         
-      ],
-      doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-    },
+    //   ],
+    //   doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    // },
    
     // {
     //   id: 0,
@@ -242,15 +245,15 @@ export const Bio = {
     //     "MongoDB",
     //   ],
     // },
-    {
-      id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-      role: "Open Source Contributor ",
-      company: "GirlScript Summer of Code",
-      date: "May 2023 - Present",
-      desc: "Contributing to different open-source projects and learn from industry experts",
-      doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-    },
+    // {
+    //   id: 2,
+    //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    //   role: "Open Source Contributor ",
+    //   company: "GirlScript Summer of Code",
+    //   date: "May 2023 - Present",
+    //   desc: "Contributing to different open-source projects and learn from industry experts",
+    //   doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+    // },
     // {
     //   id: 3,
     //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
@@ -378,6 +381,25 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/kunalrisaanva/Chate-App",
+      webapp: "https://chate-app-qsns.onrender.com/",
+    },
+
+    {
+      id: 2,
+      title: "YouTube-Backend-Server",
+      date: "Oct 2023 - dec 2023",
+      description:
+        "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      image:
+        "https://res.cloudinary.com/dltbikmc6/image/upload/v1707888681/n1eaft2mkptmv2os98rt.png",
+      tags: [
+        "MongoDb",
+        "Node Js",
+        "Express Js"
+
+      ],
+      category: "web app",
+      github: "https://github.com/kunalrisaanva/YT-Backend-Server",
       webapp: "https://chate-app-qsns.onrender.com/",
     },
     // {
