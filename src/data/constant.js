@@ -321,12 +321,36 @@ export const Bio = {
   ];
   
   export const projects = [
+
+
+
+    {
+      id: 2,
+      title: "Music-Acedemy",
+      date: "march 2025 - march 2025",
+      description:
+        "The platform allows music instructors to sell their courses online. I utilized component-based architecture to build reusable and scalable UI components, ensuring a clean and efficient codebase. Aceternity UI helped in crafting a modern, responsive interface with smooth user experience. Features include course listings, user registration, and secure checkout functionality for purchasing music lessons.",
+      image:
+        "https://res.cloudinary.com/dltbikmc6/image/upload/v1745984586/xvz83hvnspxqihytfg6y.png",
+      tags: [
+        "TypeScript",
+        "Next Js",
+        "Aceternity Ui",
+        "Tailwind css"
+
+      ],
+      category: "frontend",
+      github: "https://github.com/kunalrisaanva/music-project",
+      webapp: "https://music-project-c4a8.vercel.app/",
+    },
+
+
     {
       id: 9,
       title: "Nike Shoes Frontend",
       date: "Jun 2023 - Jul 2023",
       description:
-        "I created a page in React Js. ",
+        "I created a page in React Js. this is a single page but this is clean UI for Nike shoes. I used Tailwind CSS for styling and also used react icons for icons. ",
       image:
         "https://raw.githubusercontent.com/kunalrisaanva/react-/main/nike-peoject/src/assets/Screenshot%20from%202024-07-11%2010-54-38.png",
       tags: [
@@ -338,12 +362,36 @@ export const Bio = {
       github: "https://github.com/kunalrisaanva/react-",
       webapp: "https://nike-shoes-rose-93.vercel.app/",
     },
+
+    {
+      id: 4,
+      title: "ECOM",
+      date: "Oct 2023 - dec 2023",
+      description:
+        "The application features a modern UI built with Aceternity UI, ensuring a seamless shopping experience across devices. Implemented Google Authentication for secure and convenient user login. Key functionalities include product listing, cart management, order placement, and API-based backend integration using Fastify for high performance and scalability.",
+      image:
+        "https://res.cloudinary.com/dltbikmc6/image/upload/v1745984820/kovik5vvea1slew1c9cq.png",
+      tags: [
+        "Next Js",
+        "Fastify Js",
+        "Mongodb",
+        "Aceternity Ui",
+        "Tailwind css",
+        "Google Auth"
+
+
+      ],
+      category: "web app",
+      github: "https://github.com/kunalrisaanva/YT-Backend-Server",
+      webapp: "https://chate-app-qsns.onrender.com/",
+    },
+
     {
       id: 0,
       title: "Pinterest Clone",
       date: "Apr 2023 - May 2023",
       description:
-        "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+        "A clone which same functionalty with the real one. where user see other posts and upload his and can delete posts",
       image:
         "https://firebasestorage.googleapis.com/v0/b/fir-ef23f.appspot.com/o/Screenshot%20from%202024-08-24%2018-25-46.png?alt=media&token=51189646-c131-4921-942f-14772403cc8c",
       tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
@@ -365,12 +413,14 @@ export const Bio = {
         // },
       // ],
     },
+
+    
     {
       id: 1,
       title: "Chat-App",
       date: "Oct 2022 - Present",
       description:
-        "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+        "Build a chat application useing node js and ejs with the help of socket io. we can chat real time. aslo have the feature edit the chat and delete the chat.",
       image:
         "https://res.cloudinary.com/dltbikmc6/image/upload/v1707888681/n1eaft2mkptmv2os98rt.png",
       tags: [
@@ -389,19 +439,21 @@ export const Bio = {
       title: "YouTube-Backend-Server",
       date: "Oct 2023 - dec 2023",
       description:
-        "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-      image:
-        "https://res.cloudinary.com/dltbikmc6/image/upload/v1707888681/n1eaft2mkptmv2os98rt.png",
+        "This project is a complex backend project that is built with nodejs, expressjs, mongodb, mongoose, jwt, bcrypt, and many more. This project is a complete backend project that has all the features that a backend project should have. We are building a complete video hosting website similar to youtube with all the features like login, signup, upload video, like, dislike, comment, reply, subscribe, unsubscribe, and many more.",
+      // image:
+        // "https://res.cloudinary.com/dltbikmc6/image/upload/v1707888681/n1eaft2mkptmv2os98rt.png",
       tags: [
         "MongoDb",
         "Node Js",
         "Express Js"
 
       ],
-      category: "web app",
+      category: "backend",
       github: "https://github.com/kunalrisaanva/YT-Backend-Server",
-      webapp: "https://chate-app-qsns.onrender.com/",
+      // webapp: "https://chate-app-qsns.onrender.com/",
     },
+
+    
     // {
     //   id: 2,
     //   title: "Brain Tumor Detection",
