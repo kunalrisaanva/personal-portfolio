@@ -169,7 +169,7 @@ export const Bio = {
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6QCApf-QYA96QGHVcOYmWZyrvcPYe1BqiHg&s",
       role: "Backend Engineering At Blogee",
       company: "Pvt. Ltd.",
-      date: "Aug 2024 - october 2024",
+      date: "july 2024 - present",
       desc: "Working on Blogee Platforms,Developed and maintained APIs using Node JS , improving backend functionality and performances.",
       skills: [
         // "Docker",
@@ -383,7 +383,7 @@ export const Bio = {
       ],
       category: "frontend web",
       github: "https://github.com/kunalrisaanva/YT-Backend-Server",
-      webapp: "https://chate-app-qsns.onrender.com/",
+      webapp: "https://e-com-wheat-omega.vercel.app/",
     },
 
     {
