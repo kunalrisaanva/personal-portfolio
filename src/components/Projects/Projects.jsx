@@ -30,7 +30,22 @@ function Projects({openModal , setOpenModal}) {
           :
           <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
         }
+
         <Divider />
+
+        {toggle === 'frontend web' ?
+          <ToggleButton active value="frontend web" onClick={() => setToggle('frontend web')}>FRONTEND WEB</ToggleButton>
+          :
+          <ToggleButton value="frontend web" onClick={() => setToggle('frontend web')}>FRONTEND WEB</ToggleButton>
+        }
+        <Divider />
+        {toggle === 'backend web' ?
+          <ToggleButton active value="backend web" onClick={() => setToggle('backend web')}>BACKEND WEB</ToggleButton>
+          :
+          <ToggleButton value="backend web" onClick={() => setToggle('backend web')}>BACKEND WEB</ToggleButton>
+        }
+        <Divider />
+        {/* <Divider />
         {toggle === 'web app' ?
           <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
           :
@@ -47,17 +62,17 @@ function Projects({openModal , setOpenModal}) {
           <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>BACKEND PROJECT</ToggleButton>
           :
           <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>BACKEND PROJECT</ToggleButton>
-        }
+        } */}
       </ToggleButtonGroup>
       <CardContainer>
       {toggle === 'all' && projects
-            .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+            .map((project,index) => (
+              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} index={index}/>
             ))}
           {projects
             .filter((item) => item.category === toggle)
-            .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+            .map((project,index) => (
+              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} index={index}/>
             ))}
       </CardContainer>
     </Wrapper>

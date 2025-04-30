@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import { darkTheme, lightTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar/Navbar";

@@ -339,7 +339,7 @@ export const Bio = {
         "Tailwind css"
 
       ],
-      category: "frontend",
+      category: "frontend web",
       github: "https://github.com/kunalrisaanva/music-project",
       webapp: "https://music-project-c4a8.vercel.app/",
     },
@@ -358,7 +358,7 @@ export const Bio = {
         "Tailwind Css"    
     
       ],
-      category: "Fronted Project",
+      category: "frontend web",
       github: "https://github.com/kunalrisaanva/react-",
       webapp: "https://nike-shoes-rose-93.vercel.app/",
     },
@@ -381,7 +381,7 @@ export const Bio = {
 
 
       ],
-      category: "web app",
+      category: "frontend web",
       github: "https://github.com/kunalrisaanva/YT-Backend-Server",
       webapp: "https://chate-app-qsns.onrender.com/",
     },
@@ -395,7 +395,7 @@ export const Bio = {
       image:
         "https://firebasestorage.googleapis.com/v0/b/fir-ef23f.appspot.com/o/Screenshot%20from%202024-08-24%2018-25-46.png?alt=media&token=51189646-c131-4921-942f-14772403cc8c",
       tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-      category: "web app",
+      category: "frontend web",
       github: "https://www.linkedin.com/in/kunal-risaanva-40739225b/",
       webapp: "https://pinterest-clone-hc2c.onrender.com/",
       // member: [
@@ -429,7 +429,7 @@ export const Bio = {
         "Express Js"
 
       ],
-      category: "web app",
+      category: "backend web",
       github: "https://github.com/kunalrisaanva/Chate-App",
       webapp: "https://chate-app-qsns.onrender.com/",
     },
@@ -448,7 +448,7 @@ export const Bio = {
         "Express Js"
 
       ],
-      category: "backend",
+      category: "backend web",
       github: "https://github.com/kunalrisaanva/YT-Backend-Server",
       // webapp: "https://chate-app-qsns.onrender.com/",
     },
