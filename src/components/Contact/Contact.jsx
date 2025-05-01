@@ -122,7 +122,6 @@ const ContactButton = styled.input`
 `
 
 
-
 const Contact = () => {
 
   //hooks
@@ -131,7 +130,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    // Send email using EmailJS
+    emailjs.sendForm(
+      process.env.REACT_APP_YOUR_SERVICE,
+      process.env.REACT_APP_YOUR_TEMPLATE_ID,
+      form.current,
+      process.env.REACT_APP_YOUR_PUBLIC_KEY
+    )
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -139,11 +144,11 @@ const Contact = () => {
         console.log(error.text);
       });
   }
-
-
+  
 
   return (
     <Container>
+
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
