@@ -1,3 +1,6 @@
+import clickmeScreenshot from "../images/Screenshot 2026-03-11 at 2.11.41 PM.png";
+import blogee from "../images/Screenshot 2026-03-11 at 2.23.02 PM.png";
+import skillbridgeScreenshot from "../images/Screenshot 2026-03-11 at 2.15.38 PM.png";
 export const Bio = {
   name: "kunalrisaanva",
   roles: ["Full Stack Developer", "Programmer", "UI/UX Designer"],
@@ -175,7 +178,7 @@ export const experiences = [
       img: "https://clikkme.in/_next/image?url=%2Fwebsitelogo%2Flogo.png&w=64&q=75",
       role: "Full Stack Developer At ClickME",
       company: "ClickME Social Media",
-      date: "Aug 2025 - Feb 2026",
+      date: "Jan 2025 - July 2025",
       desc: "Built a full-featured social media platform from the ground up. Developed real-time features including live streaming, direct messaging with Socket.io, audio and video calling using WebRTC, and webhook integrations. Implemented stories, reels, community features, and a smart content recommendation algorithm.",
       skills: [
         "React Js",
@@ -195,7 +198,7 @@ export const experiences = [
       img: "https://staging.skillbridge.net/logo/logo.svg",
       role: "Full Stack Developer At SkillBridge",
       company: "SkillBridge Pvt. Ltd.",
-      date: "Oct 2025 - Present",
+      date: "March 2025 - March 2026",
       desc: "Building a next-gen skilling platform that bridges skill gaps through 1:1 live expert sessions. Developed the full application with Next.js and Strapi CMS, including expert-led program management, personalized career paths, real-time session scheduling with WebSockets, and team training modules.",
       skills: [
         "Next Js",
@@ -243,11 +246,10 @@ export const projects = [
   {
     id: 0,
     title: "ClickME - Social Media Platform",
-    date: "2025 - 2026",
+    date: "Jan 2025 - July 2025",
     description:
       "A full-featured social media platform where users can connect, share moments, and go viral. Features include Stories & Reels, Live Streaming, Direct Messages, Music Integration, Communities, and advanced privacy settings. Built with a modern, responsive UI and a smart algorithm for personalized content feeds.",
-    image:
-      "https://clikkme.in/_next/image?url=%2Fwebsitelogo%2Flogo.png&w=640&q=75",
+    image: clickmeScreenshot,
     tags: ["React Js", "Node Js", "MongoDB", "Socket.io", "REST API"],
     category: "full stack",
     github: "https://github.com/kunalrisaanva",
@@ -261,7 +263,7 @@ export const projects = [
     description:
       "A go-to platform for discovering and sharing bite-sized blogs on topics that matter. Users can explore content, share knowledge via text, images or videos, and engage with a thriving community. Features include personalized content feeds, categories, likes, comments, and a mobile app. Developed and maintained APIs using Node JS, improving backend functionality and performance.",
     image:
-      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
+      blogee,
     tags: ["Node Js", "AWS", "EC2", "Firebase", "REST API", "MongoDB"],
     category: "backend web",
     github: "https://github.com/kunalrisaanva",
@@ -271,11 +273,10 @@ export const projects = [
   {
     id: 2,
     title: "SkillBridge - Skilling Platform",
-    date: "2025 - Present",
+    date: "March 2025 - March 2026",
     description:
       "A next-gen skilling platform that bridges skill gaps through 1:1 live expert sessions. Features include expert-led programs, personalized career paths, team training modules, student testimonials, and an intuitive course discovery experience. Built with a modern, responsive frontend and scalable backend architecture.",
-    image:
-      "https://staging.skillbridge.net/logo/logo.svg",
+    image: skillbridgeScreenshot,
     tags: ["Next Js", "Node Js", "MongoDB", "Strapi CMS", "Tailwind CSS"],
     category: "full stack",
     github: "https://github.com/kunalrisaanva",
