@@ -45,6 +45,12 @@ function Projects({openModal , setOpenModal}) {
           <ToggleButton value="backend web" onClick={() => setToggle('backend web')}>BACKEND WEB</ToggleButton>
         }
         <Divider />
+        {toggle === 'full stack' ?
+          <ToggleButton active value="full stack" onClick={() => setToggle('full stack')}>FULL STACK</ToggleButton>
+          :
+          <ToggleButton value="full stack" onClick={() => setToggle('full stack')}>FULL STACK</ToggleButton>
+        }
+        <Divider />
         {/* <Divider />
         {toggle === 'web app' ?
           <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
