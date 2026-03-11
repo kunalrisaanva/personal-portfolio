@@ -40,9 +40,6 @@ function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
 
-  const toggleTheme = () => {
-    setDarkMode((prevMode) => !prevMode);
-  };
 
   return (
     <>
